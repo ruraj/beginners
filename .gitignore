@@ -1,0 +1,6 @@
+out/
+*.swp
+tmp/
+*.iml
+project.properties
+.idea/
