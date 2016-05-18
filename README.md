@@ -26,7 +26,7 @@ Follow these steps to get through the problems:
   1. `git checkout <level>`
   2. Continue working and committing changes working down from step 6 again.
 
-I will do a live briefing of these steps when, but you may use this as a cheatsheet for git commands.
+I will do a live briefing of these steps during the test, but you may use this as a cheatsheet for git commands.
 
 Don't worry if you cannot solve the advanced problems. Those are actually going to be your targets as you learn during the first weeks of internship.
 
