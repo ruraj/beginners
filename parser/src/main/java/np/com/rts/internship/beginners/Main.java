@@ -5,7 +5,9 @@ import java.util.*;
 
 public class Main {
 
-  private String parseThis = "20160519150000-STX,6-3.0-CONF4";
+  private String parseThis = "3127162:261111\n" +
+          "TUY-7.4/1\n" +
+          "DPOG5";
 
   // Parsed value must be inserted into this variable
   double value;
