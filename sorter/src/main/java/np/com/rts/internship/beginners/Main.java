@@ -5,16 +5,16 @@ import java.util.*;
 
 public class Main {
 
-  String[] strings = new String[] {
-          "hello",
-          "mello",
-          "mell",
-          "1mell",
-          "hmmm",
-          "h2mmm",
-          "zxcvb",
-          "asdf",
-          "%$compli"
+  SimpleThing[] simpleThings = new SimpleThing[] {
+          new SimpleThing("hello", 1),
+          new SimpleThing("mello", 2),
+          new SimpleThing("mell", 3),
+          new SimpleThing("1mell", 4),
+          new SimpleThing("hmmm", 5),
+          new SimpleThing("h2mmm", 6),
+          new SimpleThing("zxcvb", 7),
+          new SimpleThing("asdf", 8),
+          new SimpleThing("%$compli", 9)
   };
 
   public Main() {

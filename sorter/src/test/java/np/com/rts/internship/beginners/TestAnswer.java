@@ -12,6 +12,6 @@ public class TestAnswer {
   public void testAnswer() {
     Main main = new Main();
 
-    Assert.assertEquals("Answer incorrect", "zxcvb", main.strings[main.strings.length-1]);
+    Assert.assertEquals("Answer incorrect", "zxcvb", main.simpleThings[main.simpleThings.length-1].nothingSpecial);
   }
 }
