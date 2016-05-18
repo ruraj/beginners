@@ -12,19 +12,19 @@ Follow these steps to get through the problems:
 3. Look at each of the problems by going through the README.md files
 4. When you are confident about the level you want to go for, checkout to that level using ` git checkout <level> `
 5. You will find that the problems are pre-configured with:
-5.1 A *Main class*
-5.2 Supporting classes as explained in the problems
-5.3 A test case to check your answer
+  1. A *Main class*
+  2. Supporting classes as explained in the problems
+  3. A test case to check your answer
 6. Fill the `Main()` constructor method with you answer
 7. Once done, or if you want to try another problem, commit your changes with:
-7.1 `git add .`
-7.2 `git commit -m "<Write a simple message explaining if you are done, or are going to try another problem>"`
-7.3 `git push`
-7.4 *Only then start working on another problem*
+  1. `git add .`
+  2. `git commit -m "<Write a simple message explaining if you are done, or are going to try another problem>"`
+  3. `git push`
+  4. *Only then start working on another problem*
 8. To test your answer, run the testcase named *testAnswer* in TestAnswer test class
 9. If you would like to switch the difficulty level, make sure you that you have committed all changes if any by following step 7 again. Then:
-9.1 `git checkout <level>`
-9.2 Continue working and committing changes working down from step 6 again.
+  1. `git checkout <level>`
+  2. Continue working and committing changes working down from step 6 again.
 
 I will do a live briefing of these steps when, but you may use this as a cheatsheet for git commands.
 
