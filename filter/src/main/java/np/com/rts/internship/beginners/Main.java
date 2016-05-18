@@ -6,19 +6,19 @@ import java.util.*;
 public class Main {
 
   ArrayList<Animal> originalList = new ArrayList<Animal>() {{
-    add(new Animal("herbivore", "lamb", 4));
-    add(new Animal("herbivore", "cow", 4));
-    add(new Animal("herbivore", "giraffe", 4));
-    add(new Animal("carnivore", "lion", 4));
-    add(new Animal("carnivore", "bear", 4));
-    add(new Animal("carnivore", "leopard", 4));
-    add(new Animal("carnivore", "panther", 4));
-    add(new Animal("omnivore", "human", 2));
+    add(new Herbivore("lamb", 4));
+    add(new Herbivore("cow", 4));
+    add(new Herbivore("giraffe", 4));
+    add(new Carnivore("lion", 4));
+    add(new Carnivore("bear", 4));
+    add(new Carnivore("leopard", 4));
+    add(new Carnivore("panther", 4));
+    add(new Omnivore("human", 2));
   }};
 
-  ArrayList<Animal> herbivores = new ArrayList<>();
-  ArrayList<Animal> carnivores = new ArrayList<>();
-  ArrayList<Animal> omnivores = new ArrayList<>();
+  ArrayList<Herbivore> herbivores = new ArrayList<>();
+  ArrayList<Carnivore> carnivores = new ArrayList<>();
+  ArrayList<Omnivore> omnivores = new ArrayList<>();
 
   public Main() {
     // Write your code here
