@@ -1,0 +1,12 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+repositories {
+      jcenter()
+}
+
+dependencies {
+      testcompile 'junit:junit:4.12'
+}
+
+mainClassName = 'np.com.rts.qms.internship.beginners.Main'
