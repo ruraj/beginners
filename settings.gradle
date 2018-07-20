@@ -1,0 +1,6 @@
+include 'sorter'
+include 'parser'
+include 'filter'
+include 'debug'
+
+rootProject.name = 'Java Practice'
