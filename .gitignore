@@ -5,3 +5,5 @@ tmp/
 project.properties
 .idea/
 target/
+.gradle
+build/

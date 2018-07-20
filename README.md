@@ -3,7 +3,7 @@ Before you begin
 
 This repository contains 4 problems, each with two levels- basic and advanced. There are corresponding branches for the levels of difficulty.
 
-The README.md file in each problem directory explains the problem in full detail for both levels. You will also find a maven build file- POM.xml. This is what you will use to import the problems into your IDE, if you use one.
+The README.md file in each problem directory explains the problem in full detail for both levels. You will also find a gradle build file- build.gradle. This is what you will use to import the problems into your IDE, if you use one.
 
 Follow these steps to get through the problems:
 
