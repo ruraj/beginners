@@ -1,12 +1,18 @@
-apply plugin: 'java'
-apply plugin: 'application'
+allprojects {
+  apply plugin: 'java'
+  apply plugin: 'application'
 
-repositories {
-      jcenter()
+  repositories {
+    jcenter()
+  }
+
+  dependencies {
+    testCompile 'junit:junit:4.12'
+  }
+
+  mainClassName = 'np.com.rts.qms.internship.beginners.Main'
 }
 
-dependencies {
-      testcompile 'junit:junit:4.12'
+subprojects {
+  version = '1.0'
 }
-
-mainClassName = 'np.com.rts.qms.internship.beginners.Main'
